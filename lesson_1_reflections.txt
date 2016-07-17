@@ -1,0 +1,20 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+ - Diff is good in showing deltas though -/+, what was removed/added.
+ How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+  - There are several benefits: you can go back to any point in time and you are not scared to do new changes!
+  Judgment Call on Commit:
+   - Choosing when to commit is a judgment call, and it's not always cut-and-dried.
+   When choosing whether to commit, just keep in mind that each commit should have one clear, logical purpose, and you should never do too much work without committing.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+ - Manual approach gives you more flexibility, but it requires consistent approach that is followed by all.
+ - automatic approach saves from user mistakes, but it will generate a lot that would make hard to locate specific changes within big history of changes.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+ - Because both have different goals in mind. Git in this case is helping with changes as well as dependancies across all files, Google Docs int this case is helping
+ with updates/changes to the content of edited file.
+ How can you use the commands git log and git diff to view the history of files?
+  - git log - gives log information/history on all commits: giving ID, description
+  - git diff - helps to see the differences/changes between files and/or commits
+  How might using version control make you more confident to make changes that could break something?
+   - Version control keeps all major history of changes, thus you can always go back to last working state. So, you can try new things without worries.
+Now that you have your workspace set up, what do you want to try using Git for?
+ - I want to use its features for management of version control and history. This would put me an ease that i have last working copy and speed up new development activities.
